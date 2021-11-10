@@ -9,13 +9,37 @@
 
     <body <?php body_class(); ?>>
     <header class="header">
-        <?php wp_nav_menu( 
-            array( 
-                'theme_location' => 'main',
-                'container' => 'ul',
-                'menu_class' => 'header__menu' 
-            ) 
-        ); ?>
+        <nav class="top-bar">
+            <span class="logo">
+                <a href="<?php echo home_url('/') ?>">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/logo-armet.svg" alt="Logo Armet" width="100" height="50">
+                </a>
+            </span>
+            <?php wp_nav_menu( 
+                array( 
+                    'theme_location' => 'main',
+                    'container' => 'ul',
+                    'menu_class' => 'navbar' 
+                ) 
+            ); ?>
+            <ul class="login">
+                <li><a href="#" aria-label="Register"><i class="fas fa-user-plus fa-lg"></i><span class="mobile-hidden">Register</span></a></li>
+                <li><a href="#" aria-label="Login"><i class="fas fa-sign-in-alt fa-lg"></i><span class="mobile-hidden">Login</span></a></li>
+            </ul>
+        </nav>
+        <?php if( is_front_page() ): ?>
+            <div class="banner">
+                <?php
+                    $description_parts = armet_split_string_in_half( get_bloginfo('description') );
+                    $first_part = $description_parts[0];
+                    $second_part = $description_parts[1];
+                ?> 
+                <h1 class="slogan"><?php echo $first_part . '<br>' . $second_part; ?></h1>
+                <div class="searchbar">
+                    <?php get_search_form(); ?>                    
+                </div>
+            </div>
+        <?php endif; ?>
     </header>
         
     <?php wp_body_open(); ?>

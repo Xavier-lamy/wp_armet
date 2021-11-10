@@ -1,0 +1,36 @@
+@media screen and (min-width: 1200px) {
+    .searchbar {
+        width: auto;
+        form {
+            width: 33vw;
+        }
+    }
+    body {
+        .card, &--lg {
+            .card__img {
+                height: 20em;  
+            }
+        }
+    }
+    footer {
+        padding: 3em 6em;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .top-bar, .navbar, .wrapper, footer {
+        padding-right: 9em;
+        padding-left: 9em;
+    }
+    .banner {
+        padding: 1em 9em;
+        .slogan {
+            br {
+                display: none;
+            }
+        }
+        .searchbar {
+            padding: 1.2em;
+        } 
+    }
+}

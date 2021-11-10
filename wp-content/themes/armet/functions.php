@@ -6,8 +6,14 @@ require_once get_template_directory() . '/inc/functions-config.php';
 // Add additionnal features from functions-features.php
 require_once get_template_directory() . '/inc/functions-features.php';
 
+// Add CPT from functions-post-types.php
+require_once get_template_directory() . '/inc/functions-post-types.php';
+
 // Add thumbnail handling
 add_theme_support('post-thumbnails');
+
+// Auto add title in site head
+add_theme_support('title-tag');
 
 // Add menus location
 register_nav_menus(

@@ -10,7 +10,7 @@
 
             <p class="post__meta">
                 Published on <?php the_time( get_option( 'date_format' ) ); ?> 
-                by <?php the_author(); ?> - <?php comments_number(); comments ?>
+                by <?php the_author(); ?> - <?php comments_number(); ?>
             </p>
 
             <?php the_excerpt(); ?>

@@ -8,5 +8,14 @@
     </head>
 
     <body <?php body_class(); ?>>
+    <header class="header">
+        <?php wp_nav_menu( 
+            array( 
+                'theme_location' => 'main',
+                'container' => 'ul',
+                'menu_class' => 'header__menu' 
+            ) 
+        ); ?>
+    </header>
         
     <?php wp_body_open(); ?>

@@ -28,3 +28,13 @@ remove_action( 'shutdown', 'wp_ob_end_flush_all', 1 );
 add_action( 'shutdown', function() {
    while ( @ob_end_flush() );
 } );
+
+add_action( 'pre_get_posts', function ( $q )
+{
+    if (  !is_admin() // Only target front end queries
+          && $q->is_main_query() // Only target the main query
+          && ($q->is_category() || $q->is_tag())
+    ) {
+        $q->set( 'post_type', ['post', 'tips'] );
+    }
+});

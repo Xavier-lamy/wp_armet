@@ -1,11 +1,14 @@
 <?php get_header(); ?>
 
     <?php
-        if ( is_category() ) {
-            $title = "Category : " . single_tag_title( '', false);
+        if ( is_home() ) {
+            $title = "Latest news";
+        }
+        elseif ( is_category() ) {
+            $title = "Articles in category: " . single_tag_title( '', false);
         }
         elseif ( is_tag() ) {
-            $title = "Tag : " . single_tag_title('', false);
+            $title = "Articles with tag: " . single_tag_title('', false);
         }
         elseif ( is_search() ) {
             $title = "Search result for :" . get_search_query();
@@ -14,7 +17,7 @@
             $title = 'Archive';
         }
     ?>
-    <h1><?php $title; ?></h1>
+    <h1><?php echo $title; ?></h1>
 
     <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
 
@@ -25,7 +28,7 @@
 
             <p class="post__meta">
                 Published on <?php the_time( get_option( 'date_format' ) ); ?> 
-                by <?php the_author(); ?> - <?php comments_number(); comments ?>
+                by <?php the_author(); ?> - <?php comments_number(); ?>
             </p>
 
             <?php the_excerpt(); ?>

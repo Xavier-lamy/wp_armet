@@ -433,4 +433,33 @@ footer {
     }
 }
 
+.strip {
+    box-sizing: border-box;
+    background-image: $gradient-black;
+    padding: 1.5em;
+    margin: 0.5%;
+    &__tags {
+        margin-bottom: 1em;
+        a {
+            margin-right: .2em;
+        }
+    }
+    &__img {
+        img {
+            width: 25em;
+            height: 15em;
+        }
+    }
+    &__body {
+        display: flex;
+    }
+    &__text {
+        margin-left: 2em;
+        h2 {
+            margin: .1em;
+            line-height: 1.5em
+        }
+    }    
+}
+
 @import 'partials/desktop', 'partials/mobile';

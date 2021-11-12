@@ -75,6 +75,7 @@
         }
         .searchbar {
             margin-top: 2em;
+            margin-bottom: 2em;
         }
     }
     .section__body {
@@ -116,6 +117,15 @@
                     }
                 }
             }
+        }
+    }
+    .strip {
+        &__body {
+            flex-direction: column;
+            justify-content: center;            
+        }
+        &__text, &__img, &__tags {
+            text-align: center;
         }
     }
     footer {

@@ -10,11 +10,9 @@
     <body <?php body_class(); ?>>
     <header class="header">
         <nav class="top-bar">
-            <span class="logo">
-                <a href="<?php echo home_url('/') ?>">
-                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/logo-armet.svg" alt="Logo Armet" width="100" height="50">
-                </a>
-            </span>
+            <a href="<?php echo home_url('/') ?>" class="logo">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/logo-armet.svg" alt="Logo Armet" width="100" height="50">
+            </a>
             <?php wp_nav_menu( 
                 array( 
                     'theme_location' => 'main',

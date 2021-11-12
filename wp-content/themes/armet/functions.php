@@ -39,7 +39,7 @@ add_action( 'pre_get_posts', function ( $q )
     }
 });
 
-function is_post_type($type){
+function armet_is_post_type($type){
     global $wp_query;
     if($type == get_post_type($wp_query->post->ID)){
         return true;

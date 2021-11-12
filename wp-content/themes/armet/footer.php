@@ -13,13 +13,23 @@
             </div>
         </form>
     </div>
+    <?php
+        $contact_id = url_to_postid('contact');
+        $address = get_field('address', $contact_id);
+        $mail = get_field('mail', $contact_id);
+        $phone = get_field('phone', $contact_id);
+        $facebook = get_field('facebook', $contact_id);
+        $twitter = get_field('twitter', $contact_id);
+        $instagram = get_field('instagram', $contact_id);
+        $youtube = get_field('youtube', $contact_id);
+    ?>
     <div class="infos">
         <div class="infos__contacts">
             <h3>Contacts</h3>
             <ul>
-                <li><a href="#"><i class="fas fa-map-marker-alt fa-lg"></i><span>133 Dadao Road, DaCheng, Taiwan</span></a></li>
-                <li><a href="#"><i class="fas fa-envelope fa-lg"></i><span>armet@contact.com</span></a></li>
-                <li><a href="#"><i class="fas fa-phone-alt fa-lg"></i><span>+833 386-456-428</span></a></li>
+                <li><a href="#"><i class="fas fa-map-marker-alt fa-lg"></i><span><?php echo $address; ?></span></a></li>
+                <li><a href="#"><i class="fas fa-envelope fa-lg"></i><span><?php echo $mail; ?></span></a></li>
+                <li><a href="#"><i class="fas fa-phone-alt fa-lg"></i><span><?php echo $phone; ?></span></a></li>
             </ul>
         </div>
         <div class="infos__about">
@@ -35,10 +45,10 @@
         <div class="infos__follow">
             <h3>Follow us</h3>
             <ul>
-                <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook fa-lg"></i><span>Facebook</span></a></li>
-                <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter fa-lg"></i><span>Twitter</span></a></li>
-                <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram fa-lg"></i><span>Instagram</span></a></li>
-                <li><a href="#" aria-label="TikTok"><i class="fab fa-tiktok fa-lg"></i><span>TikTok</span></a></li>
+                <li><a href="<?php echo $facebook; ?>" aria-label="Facebook" target="_blank"><i class="fab fa-facebook fa-lg"></i><span>Facebook</span></a></li>
+                <li><a href="<?php echo $twitter; ?>" aria-label="Twitter" target="_blank"><i class="fab fa-twitter fa-lg"></i><span>Twitter</span></a></li>
+                <li><a href="<?php echo $instagram; ?>" aria-label="Instagram" target="_blank"><i class="fab fa-instagram fa-lg"></i><span>Instagram</span></a></li>
+                <li><a href="<?php echo $youtube; ?>" aria-label="Youtube" target="_blank"><i class="fab fa-youtube fa-lg"></i><span>Youtube</span></a></li>
             </ul>
         </div>
     </div>

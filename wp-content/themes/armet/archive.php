@@ -7,10 +7,10 @@
                 $title = "Latest News";
             }
             elseif ( is_category() ) {
-                $title = "Articles in category: " . single_tag_title( '', false);
+                $title = "Category: " . single_tag_title( '', false);
             }
             elseif ( is_tag() ) {
-                $title = "Articles with tag: " . single_tag_title('', false);
+                $title = "Tag: " . single_tag_title('', false);
             }
             elseif ( is_search() ) {
                 $title = "Search result for :" . get_search_query();

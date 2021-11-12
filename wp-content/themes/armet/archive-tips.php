@@ -6,9 +6,6 @@
             if ( is_post_type_archive('tips') ) {
                 $title = "Game Tips & Tricks";
             }
-            elseif ( is_post_type_archive( 'tips' ) & is_search() ) {
-                $title = "Search result for :" . get_search_query();
-            }
             else {
                 $title = 'Archive';
             }

@@ -38,3 +38,13 @@ add_action( 'pre_get_posts', function ( $q )
         $q->set( 'post_type', ['post', 'tips'] );
     }
 });
+
+function is_post_type($type){
+    global $wp_query;
+    if($type == get_post_type($wp_query->post->ID)){
+        return true;
+    } 
+    else {
+        return false;
+    }
+}

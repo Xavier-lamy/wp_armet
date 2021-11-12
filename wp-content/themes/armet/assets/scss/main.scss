@@ -425,18 +425,6 @@ footer {
     flex-direction: column;
 }
 
-.article__text {
-    text-align: justify;
-}
-
-.article__img {
-    align-self: center;
-    img {
-        width: 100%;
-        height: auto;
-    }
-}
-
 .related {
     display: flex;
     flex-flow: wrap;

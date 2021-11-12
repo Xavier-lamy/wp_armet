@@ -694,21 +694,6 @@ footer .copyright small {
           flex-direction: column;
 }
 
-.article__text {
-  text-align: justify;
-}
-
-.article__img {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-.article__img img {
-  width: 100%;
-  height: auto;
-}
-
 .related {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -3,24 +3,28 @@
 <div class="wrapper">
     <main class="content">
         <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
-            <article class="post">
-                <?php the_post_thumbnail(); ?>
-
+            <article>
+            <div class="article__title">
                 <h1><?php the_title(); ?></h1>
-
-                <div class="post__meta">
-                    <?php echo get_avatar( get_the_author_meta( 'ID' ), 40 ); ?>
-                    <p>
-                    Published on <?php the_date(); ?>
-                    by <?php the_author(); ?>
-                    In category: <?php the_category(); ?>
-                    Tags: <?php the_tags(); ?>
-                    </p>
+                <div class="article__tags">
+                    <?php 
+                      $categories = get_the_category();
+                      if ($categories) : foreach ($categories as $category) : 
+                    ?>
+                          <span class="tag"><?php echo $category->name; ?></span>
+                    <?php endforeach; endif; ?>
+                    <?php 
+                      $tags = get_the_tags();
+                      if ($tags) : foreach ($tags as $tag) : 
+                    ?>
+                          <span class="tag"><?php echo $tag->name; ?></span>
+                    <?php endforeach; endif; ?>
                 </div>
-                
-                <div class="post__content">
-                    <?php the_content(); ?>
-                </div>
+                <p class="article__meta"><small>Posted by <?php the_author(); ?><span class="mobile-hidden"> on</span></small><small> <?php the_date(); ?></small></p>
+            </div>
+            <div class="article__body">
+                <?php the_content(); ?>
+            </div>
             </article>
         <?php endwhile; endif; ?>
     </main>

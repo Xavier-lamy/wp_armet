@@ -53,13 +53,13 @@
         </div>
     </div>
     <div class="copyright">
-        <small>&copy; Copyright 2021 Armet.com</small>
+        <?php
+            $current_year = date('Y');
+            $site_name = get_bloginfo('name')
+        ?>
+        <small>&copy; Copyright <?php echo $current_year . ' ' . $site_name ; ?></small>
     </div>
 </footer>
 <?php wp_footer(); ?>
-<footer class="footer">
-
-        </footer>
-
     </body>
 </html>

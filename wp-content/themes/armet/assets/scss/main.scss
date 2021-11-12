@@ -223,6 +223,7 @@ header {
     margin: 5%;
     display: flex;
     .content {
+        min-width: 75%;
         section {
             display: flex;
             flex-direction: column;
@@ -245,6 +246,7 @@ header {
 
 aside {
     margin-left: 4em;
+    min-width: 25%;
     .sidebar:first-child {
         margin-top: 0em;
     }

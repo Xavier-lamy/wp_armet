@@ -408,6 +408,10 @@ header {
   display: flex;
 }
 
+.wrapper .content {
+  min-width: 75%;
+}
+
 .wrapper .content section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -445,6 +449,7 @@ header {
 
 aside {
   margin-left: 4em;
+  min-width: 25%;
 }
 
 aside .sidebar:first-child {

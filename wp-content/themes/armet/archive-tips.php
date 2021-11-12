@@ -3,16 +3,10 @@
 <div class="wrapper">
     <main class="content">
         <?php
-            if ( is_home() ) {
-                $title = "Latest News";
+            if ( is_post_type_archive('tips') ) {
+                $title = "Game Tips & Tricks";
             }
-            elseif ( is_category() ) {
-                $title = "Articles in category: " . single_tag_title( '', false);
-            }
-            elseif ( is_tag() ) {
-                $title = "Articles with tag: " . single_tag_title('', false);
-            }
-            elseif ( is_search() ) {
+            elseif ( is_post_type_archive( 'tips' ) & is_search() ) {
                 $title = "Search result for :" . get_search_query();
             }
             else {

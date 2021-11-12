@@ -8,13 +8,13 @@
                 <h1><?php the_title(); ?></h1>
                 <div class="article__tags">
                     <?php 
-                      $categories = get_category();
+                      $categories = get_the_category();
                       if ($categories) : foreach ($categories as $category) : 
                     ?>
                           <a href="<?php echo get_site_url('/') . '/category\/' . $category->slug; ?>" class="tag"><?php echo $category->name; ?></a>
                     <?php endforeach; endif; ?>
                     <?php 
-                      $tags = get_tags();
+                      $tags = get_the_tags();
                       if ($tags) : foreach ($tags as $tag) : 
                     ?>
                           <a href="<?php echo get_site_url('/') . '/tag\/' . $tag->slug; ?>" class="tag"><?php echo $tag->name; ?></a>

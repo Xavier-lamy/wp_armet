@@ -2,3 +2,4 @@ wp-config.php
 wp-content/themes/twentytwentyone/*
 wp-content/uploads/*
 wp-content/plugins/duplicate-post/*
+.vscode/

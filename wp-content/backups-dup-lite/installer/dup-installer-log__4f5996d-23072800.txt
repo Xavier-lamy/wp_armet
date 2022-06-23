@@ -1,0 +1,403 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 08:37:35
+* VERSION: 1.4.6
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.19                                |8.1.0
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2022-06-23 07:28:00
+WP VERSION__________: 5.8.1
+DUP VERSION_________: 1.4.6
+DB__________________: 5.7.33
+DB TABLES___________: 13
+DB ROWS_____________: 551
+DB FILE SIZE________: 2.84MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 8.1.0 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.47 (Win64) OpenSSL/1.1.1l PHP/8.1.0
+DOC ROOT____________: "D:/workspace/code/ofp_projets/wp-theme-starterpack"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "D:/workspace/code/ofp_projets/wp-theme-starterpack/20220623_armet_[HASH]_20220623072800_archive.zip"
+SIZE________________: 43.93MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "D:/workspace/code/ofp_projets/wp-theme-starterpack/20220623_armet_[HASH]_20220623072800_archive.zip"
+SIZE________________: 43.93MBFile timestamp set to Current: 2022-06-23 08:37:51
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTRACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 08:37:51 - RUNTIME: 15.8733 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 08:38:49
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.33 -- Build Server: 5.7.33
+FILE SIZE:	dup-database__[HASH].sql (1.1MB)
+TIMEOUT:	5000
+MAXPACK:	536870912
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[D:/workspace/code/ofp_projets/wp-theme-starterpack/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	567
+
+arm_commentmeta: (0)
+arm_comments: (0)
+arm_duplicator_packages: (0)
+arm_links: (0)
+arm_options: (162)
+arm_postmeta: (195)
+arm_posts: (70)
+arm_term_relationships: (36)
+arm_term_taxonomy: (16)
+arm_termmeta: (6)
+arm_terms: (16)
+arm_usermeta: (24)
+arm_users: (1)
+Removed '25' cache/transient rows
+
+INSERT DATA RUNTIME: 8.4363 sec.
+STEP-2 COMPLETE @ 08:38:57 - RUNTIME: 8.5048 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 08:40:01
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Armet"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "D:/workspace/code/ofp_projets/wp_armet/onlineFormaPro/projets-ecole/wp_armet"
+path_new______________: "D:/workspace/code/ofp_projets/wp-theme-starterpack"
+siteurl_______________: "http://localhost"
+url_old_______________: "http://localhost/onlineFormaPro/projets-ecole/wp_armet"
+url_new_______________: "http://localhost"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "arm_commentmeta"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "arm_comments"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "arm_duplicator_packages"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "arm_links"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "arm_options"_____________________________________[ROWS:   162][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/workspace/code/ofp_projets/wp_armet/onlineFormaPro/projets-ecole/wp_armet" => "D:/workspace/code/ofp_projets/wp-theme-starterpack"
+	SEARCH  2:"D:\/workspace\/code\/ofp_projets\/wp_armet\/onlineFormaPro\/projets-ecole\/wp_armet" => "D:\/workspace\/code\/ofp_projets\/wp-theme-starterpack"
+	SEARCH  3:"D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp_armet%2FonlineFormaPro%2Fprojets-ecole%2Fwp_armet" => "D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp-theme-starterpack"
+	SEARCH  4:"D:\workspace\code\ofp_projets\wp_armet\onlineFormaPro\projets-ecole\wp_armet" => "D:/workspace/code/ofp_projets/wp-theme-starterpack"
+	SEARCH  5:"D:\\workspace\\code\\ofp_projets\\wp_armet\\onlineFormaPro\\projets-ecole\\wp_armet" => "D:\/workspace\/code\/ofp_projets\/wp-theme-starterpack"
+	SEARCH  6:"D%3A%5Cworkspace%5Ccode%5Cofp_projets%5Cwp_armet%5ConlineFormaPro%5Cprojets-ecole%5Cwp_armet" => "D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp-theme-starterpack"
+	SEARCH  7:"//localhost/onlineFormaPro/projets-ecole/wp_armet" => "//localhost"
+	SEARCH  8:"\/\/localhost\/onlineFormaPro\/projets-ecole\/wp_armet" => "\/\/localhost"
+	SEARCH  9:"%2F%2Flocalhost%2FonlineFormaPro%2Fprojets-ecole%2Fwp_armet" => "%2F%2Flocalhost"
+	SEARCH 10:"https://localhost" ===============================> "http://localhost"
+	SEARCH 11:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 12:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "arm_postmeta"____________________________________[ROWS:   195][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/workspace/code/ofp_projets/wp_armet/onlineFormaPro/projets-ecole/wp_armet" => "D:/workspace/code/ofp_projets/wp-theme-starterpack"
+	SEARCH  2:"D:\/workspace\/code\/ofp_projets\/wp_armet\/onlineFormaPro\/projets-ecole\/wp_armet" => "D:\/workspace\/code\/ofp_projets\/wp-theme-starterpack"
+	SEARCH  3:"D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp_armet%2FonlineFormaPro%2Fprojets-ecole%2Fwp_armet" => "D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp-theme-starterpack"
+	SEARCH  4:"D:\workspace\code\ofp_projets\wp_armet\onlineFormaPro\projets-ecole\wp_armet" => "D:/workspace/code/ofp_projets/wp-theme-starterpack"
+	SEARCH  5:"D:\\workspace\\code\\ofp_projets\\wp_armet\\onlineFormaPro\\projets-ecole\\wp_armet" => "D:\/workspace\/code\/ofp_projets\/wp-theme-starterpack"
+	SEARCH  6:"D%3A%5Cworkspace%5Ccode%5Cofp_projets%5Cwp_armet%5ConlineFormaPro%5Cprojets-ecole%5Cwp_armet" => "D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp-theme-starterpack"
+	SEARCH  7:"//localhost/onlineFormaPro/projets-ecole/wp_armet" => "//localhost"
+	SEARCH  8:"\/\/localhost\/onlineFormaPro\/projets-ecole\/wp_armet" => "\/\/localhost"
+	SEARCH  9:"%2F%2Flocalhost%2FonlineFormaPro%2Fprojets-ecole%2Fwp_armet" => "%2F%2Flocalhost"
+	SEARCH 10:"https://localhost" ===============================> "http://localhost"
+	SEARCH 11:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 12:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "arm_posts"_______________________________________[ROWS:    70][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/workspace/code/ofp_projets/wp_armet/onlineFormaPro/projets-ecole/wp_armet" => "D:/workspace/code/ofp_projets/wp-theme-starterpack"
+	SEARCH  2:"D:\/workspace\/code\/ofp_projets\/wp_armet\/onlineFormaPro\/projets-ecole\/wp_armet" => "D:\/workspace\/code\/ofp_projets\/wp-theme-starterpack"
+	SEARCH  3:"D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp_armet%2FonlineFormaPro%2Fprojets-ecole%2Fwp_armet" => "D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp-theme-starterpack"
+	SEARCH  4:"D:\workspace\code\ofp_projets\wp_armet\onlineFormaPro\projets-ecole\wp_armet" => "D:/workspace/code/ofp_projets/wp-theme-starterpack"
+	SEARCH  5:"D:\\workspace\\code\\ofp_projets\\wp_armet\\onlineFormaPro\\projets-ecole\\wp_armet" => "D:\/workspace\/code\/ofp_projets\/wp-theme-starterpack"
+	SEARCH  6:"D%3A%5Cworkspace%5Ccode%5Cofp_projets%5Cwp_armet%5ConlineFormaPro%5Cprojets-ecole%5Cwp_armet" => "D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp-theme-starterpack"
+	SEARCH  7:"//localhost/onlineFormaPro/projets-ecole/wp_armet" => "//localhost"
+	SEARCH  8:"\/\/localhost\/onlineFormaPro\/projets-ecole\/wp_armet" => "\/\/localhost"
+	SEARCH  9:"%2F%2Flocalhost%2FonlineFormaPro%2Fprojets-ecole%2Fwp_armet" => "%2F%2Flocalhost"
+	SEARCH 10:"https://localhost" ===============================> "http://localhost"
+	SEARCH 11:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 12:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "arm_term_relationships"__________________________[ROWS:    36][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/workspace/code/ofp_projets/wp_armet/onlineFormaPro/projets-ecole/wp_armet" => "D:/workspace/code/ofp_projets/wp-theme-starterpack"
+	SEARCH  2:"D:\/workspace\/code\/ofp_projets\/wp_armet\/onlineFormaPro\/projets-ecole\/wp_armet" => "D:\/workspace\/code\/ofp_projets\/wp-theme-starterpack"
+	SEARCH  3:"D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp_armet%2FonlineFormaPro%2Fprojets-ecole%2Fwp_armet" => "D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp-theme-starterpack"
+	SEARCH  4:"D:\workspace\code\ofp_projets\wp_armet\onlineFormaPro\projets-ecole\wp_armet" => "D:/workspace/code/ofp_projets/wp-theme-starterpack"
+	SEARCH  5:"D:\\workspace\\code\\ofp_projets\\wp_armet\\onlineFormaPro\\projets-ecole\\wp_armet" => "D:\/workspace\/code\/ofp_projets\/wp-theme-starterpack"
+	SEARCH  6:"D%3A%5Cworkspace%5Ccode%5Cofp_projets%5Cwp_armet%5ConlineFormaPro%5Cprojets-ecole%5Cwp_armet" => "D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp-theme-starterpack"
+	SEARCH  7:"//localhost/onlineFormaPro/projets-ecole/wp_armet" => "//localhost"
+	SEARCH  8:"\/\/localhost\/onlineFormaPro\/projets-ecole\/wp_armet" => "\/\/localhost"
+	SEARCH  9:"%2F%2Flocalhost%2FonlineFormaPro%2Fprojets-ecole%2Fwp_armet" => "%2F%2Flocalhost"
+	SEARCH 10:"https://localhost" ===============================> "http://localhost"
+	SEARCH 11:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 12:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "arm_term_taxonomy"_______________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/workspace/code/ofp_projets/wp_armet/onlineFormaPro/projets-ecole/wp_armet" => "D:/workspace/code/ofp_projets/wp-theme-starterpack"
+	SEARCH  2:"D:\/workspace\/code\/ofp_projets\/wp_armet\/onlineFormaPro\/projets-ecole\/wp_armet" => "D:\/workspace\/code\/ofp_projets\/wp-theme-starterpack"
+	SEARCH  3:"D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp_armet%2FonlineFormaPro%2Fprojets-ecole%2Fwp_armet" => "D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp-theme-starterpack"
+	SEARCH  4:"D:\workspace\code\ofp_projets\wp_armet\onlineFormaPro\projets-ecole\wp_armet" => "D:/workspace/code/ofp_projets/wp-theme-starterpack"
+	SEARCH  5:"D:\\workspace\\code\\ofp_projets\\wp_armet\\onlineFormaPro\\projets-ecole\\wp_armet" => "D:\/workspace\/code\/ofp_projets\/wp-theme-starterpack"
+	SEARCH  6:"D%3A%5Cworkspace%5Ccode%5Cofp_projets%5Cwp_armet%5ConlineFormaPro%5Cprojets-ecole%5Cwp_armet" => "D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp-theme-starterpack"
+	SEARCH  7:"//localhost/onlineFormaPro/projets-ecole/wp_armet" => "//localhost"
+	SEARCH  8:"\/\/localhost\/onlineFormaPro\/projets-ecole\/wp_armet" => "\/\/localhost"
+	SEARCH  9:"%2F%2Flocalhost%2FonlineFormaPro%2Fprojets-ecole%2Fwp_armet" => "%2F%2Flocalhost"
+	SEARCH 10:"https://localhost" ===============================> "http://localhost"
+	SEARCH 11:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 12:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "arm_termmeta"____________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/workspace/code/ofp_projets/wp_armet/onlineFormaPro/projets-ecole/wp_armet" => "D:/workspace/code/ofp_projets/wp-theme-starterpack"
+	SEARCH  2:"D:\/workspace\/code\/ofp_projets\/wp_armet\/onlineFormaPro\/projets-ecole\/wp_armet" => "D:\/workspace\/code\/ofp_projets\/wp-theme-starterpack"
+	SEARCH  3:"D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp_armet%2FonlineFormaPro%2Fprojets-ecole%2Fwp_armet" => "D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp-theme-starterpack"
+	SEARCH  4:"D:\workspace\code\ofp_projets\wp_armet\onlineFormaPro\projets-ecole\wp_armet" => "D:/workspace/code/ofp_projets/wp-theme-starterpack"
+	SEARCH  5:"D:\\workspace\\code\\ofp_projets\\wp_armet\\onlineFormaPro\\projets-ecole\\wp_armet" => "D:\/workspace\/code\/ofp_projets\/wp-theme-starterpack"
+	SEARCH  6:"D%3A%5Cworkspace%5Ccode%5Cofp_projets%5Cwp_armet%5ConlineFormaPro%5Cprojets-ecole%5Cwp_armet" => "D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp-theme-starterpack"
+	SEARCH  7:"//localhost/onlineFormaPro/projets-ecole/wp_armet" => "//localhost"
+	SEARCH  8:"\/\/localhost\/onlineFormaPro\/projets-ecole\/wp_armet" => "\/\/localhost"
+	SEARCH  9:"%2F%2Flocalhost%2FonlineFormaPro%2Fprojets-ecole%2Fwp_armet" => "%2F%2Flocalhost"
+	SEARCH 10:"https://localhost" ===============================> "http://localhost"
+	SEARCH 11:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 12:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "arm_terms"_______________________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/workspace/code/ofp_projets/wp_armet/onlineFormaPro/projets-ecole/wp_armet" => "D:/workspace/code/ofp_projets/wp-theme-starterpack"
+	SEARCH  2:"D:\/workspace\/code\/ofp_projets\/wp_armet\/onlineFormaPro\/projets-ecole\/wp_armet" => "D:\/workspace\/code\/ofp_projets\/wp-theme-starterpack"
+	SEARCH  3:"D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp_armet%2FonlineFormaPro%2Fprojets-ecole%2Fwp_armet" => "D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp-theme-starterpack"
+	SEARCH  4:"D:\workspace\code\ofp_projets\wp_armet\onlineFormaPro\projets-ecole\wp_armet" => "D:/workspace/code/ofp_projets/wp-theme-starterpack"
+	SEARCH  5:"D:\\workspace\\code\\ofp_projets\\wp_armet\\onlineFormaPro\\projets-ecole\\wp_armet" => "D:\/workspace\/code\/ofp_projets\/wp-theme-starterpack"
+	SEARCH  6:"D%3A%5Cworkspace%5Ccode%5Cofp_projets%5Cwp_armet%5ConlineFormaPro%5Cprojets-ecole%5Cwp_armet" => "D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp-theme-starterpack"
+	SEARCH  7:"//localhost/onlineFormaPro/projets-ecole/wp_armet" => "//localhost"
+	SEARCH  8:"\/\/localhost\/onlineFormaPro\/projets-ecole\/wp_armet" => "\/\/localhost"
+	SEARCH  9:"%2F%2Flocalhost%2FonlineFormaPro%2Fprojets-ecole%2Fwp_armet" => "%2F%2Flocalhost"
+	SEARCH 10:"https://localhost" ===============================> "http://localhost"
+	SEARCH 11:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 12:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "arm_usermeta"____________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/workspace/code/ofp_projets/wp_armet/onlineFormaPro/projets-ecole/wp_armet" => "D:/workspace/code/ofp_projets/wp-theme-starterpack"
+	SEARCH  2:"D:\/workspace\/code\/ofp_projets\/wp_armet\/onlineFormaPro\/projets-ecole\/wp_armet" => "D:\/workspace\/code\/ofp_projets\/wp-theme-starterpack"
+	SEARCH  3:"D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp_armet%2FonlineFormaPro%2Fprojets-ecole%2Fwp_armet" => "D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp-theme-starterpack"
+	SEARCH  4:"D:\workspace\code\ofp_projets\wp_armet\onlineFormaPro\projets-ecole\wp_armet" => "D:/workspace/code/ofp_projets/wp-theme-starterpack"
+	SEARCH  5:"D:\\workspace\\code\\ofp_projets\\wp_armet\\onlineFormaPro\\projets-ecole\\wp_armet" => "D:\/workspace\/code\/ofp_projets\/wp-theme-starterpack"
+	SEARCH  6:"D%3A%5Cworkspace%5Ccode%5Cofp_projets%5Cwp_armet%5ConlineFormaPro%5Cprojets-ecole%5Cwp_armet" => "D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp-theme-starterpack"
+	SEARCH  7:"//localhost/onlineFormaPro/projets-ecole/wp_armet" => "//localhost"
+	SEARCH  8:"\/\/localhost\/onlineFormaPro\/projets-ecole\/wp_armet" => "\/\/localhost"
+	SEARCH  9:"%2F%2Flocalhost%2FonlineFormaPro%2Fprojets-ecole%2Fwp_armet" => "%2F%2Flocalhost"
+	SEARCH 10:"https://localhost" ===============================> "http://localhost"
+	SEARCH 11:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 12:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "arm_users"_______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/workspace/code/ofp_projets/wp_armet/onlineFormaPro/projets-ecole/wp_armet" => "D:/workspace/code/ofp_projets/wp-theme-starterpack"
+	SEARCH  2:"D:\/workspace\/code\/ofp_projets\/wp_armet\/onlineFormaPro\/projets-ecole\/wp_armet" => "D:\/workspace\/code\/ofp_projets\/wp-theme-starterpack"
+	SEARCH  3:"D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp_armet%2FonlineFormaPro%2Fprojets-ecole%2Fwp_armet" => "D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp-theme-starterpack"
+	SEARCH  4:"D:\workspace\code\ofp_projets\wp_armet\onlineFormaPro\projets-ecole\wp_armet" => "D:/workspace/code/ofp_projets/wp-theme-starterpack"
+	SEARCH  5:"D:\\workspace\\code\\ofp_projets\\wp_armet\\onlineFormaPro\\projets-ecole\\wp_armet" => "D:\/workspace\/code\/ofp_projets\/wp-theme-starterpack"
+	SEARCH  6:"D%3A%5Cworkspace%5Ccode%5Cofp_projets%5Cwp_armet%5ConlineFormaPro%5Cprojets-ecole%5Cwp_armet" => "D%3A%2Fworkspace%2Fcode%2Fofp_projets%2Fwp-theme-starterpack"
+	SEARCH  7:"//localhost/onlineFormaPro/projets-ecole/wp_armet" => "//localhost"
+	SEARCH  8:"\/\/localhost\/onlineFormaPro\/projets-ecole\/wp_armet" => "\/\/localhost"
+	SEARCH  9:"%2F%2Flocalhost%2FonlineFormaPro%2Fprojets-ecole%2Fwp_armet" => "%2F%2Flocalhost"
+	SEARCH 10:"https://localhost" ===============================> "http://localhost"
+	SEARCH 11:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 12:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:526 	|	 Cells:3436 
+UPDATED:	Tables:3 	|	 Rows:74 	|	 Cells:99 
+ERRORS:		0 
+RUNTIME:	0.332300 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:40:01 - RUNTIME: 0.7148 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[NOTICE] wp-config notice
+	SECTIONS: general
+	LONG MSG: WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================

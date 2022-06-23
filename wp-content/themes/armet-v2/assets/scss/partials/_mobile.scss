@@ -1,0 +1,280 @@
+@media (max-width: 999px) {
+    .login .mobile-hidden {
+        display: none;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    aside {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0em;
+        .sidebar, .sidebar:first-child {
+            width: 100%;
+            margin: 3em 0.3em;
+            &.contactform {
+                .contactform__names {
+                    flex-direction: column;
+                    input {
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        .company {
+            order: 2;
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: flex-end;
+            justify-content: space-between;
+            .newsletter {
+                order: 2;
+            }
+            .logo, p {
+                order: 1;
+            }
+        }
+        .infos {
+            order: 1;
+            width: 100%;
+        }
+        .copyright {
+            order: 3;
+            align-items: flex-end;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile-hidden {
+        display: none;
+    }
+    .top-bar {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .logo {
+            order: 1;
+            width: 50%;            
+        }
+        ul.navbar {
+            order: 3;
+            width: 100%;
+        }
+        .login {
+            order: 2;
+            width: 50%;
+        }
+    }
+    .banner {
+        flex-direction: column;
+        .slogan {
+            text-align: center;
+        }
+        .searchbar {
+            margin-top: 2em;
+            margin-bottom: 2em;
+        }
+    }
+    .section__body {
+        .card:not(.card--lg) {
+            flex-basis: 49%;
+            order: 2;
+        }
+        .card--lg {
+            order: 1;
+            flex-basis: 100%;
+        }
+    }
+    aside {
+        flex-direction: column;
+        .sidebar, .sidebar:first-child {
+            width: auto;
+            &.reactions {
+                .reactions__block {
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+            }
+            &.forums {
+                .sidebar__content {
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: space-around;
+                    .forums__block {
+                        width: 50%;
+                    }
+                }
+
+            }
+            &.contactform {
+                .contactform__names {
+                    flex-direction: row;
+                    input {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+    .strip {
+        &__body {
+            flex-direction: column;
+            justify-content: center;            
+        }
+        &__text, &__img, &__tags {
+            text-align: center;
+        }
+    }
+    footer {
+        padding: 3em;
+    }
+
+    /*Single*/
+    .article__title {
+        display: flex;
+        flex-direction: column;
+        h1 {
+            text-align: center;
+        }
+        .article {
+            &__tags  {
+                align-self: center;
+            }
+            &__meta {
+                display: flex;
+                flex-direction: column;
+                align-self: center;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .wrapper .content section {
+        .section__title {
+            flex-direction: column;
+            h2 {
+                font-size: $h3;
+            }
+        }
+    }
+    .section__body .card {
+        flex-basis: 100%;
+        &:not(.card--lg) {
+            flex-basis: 100%;
+        }
+        .button {
+            margin: 0% 25%;
+        }
+    }
+    aside {
+        .sidebar, .sidebar:first-child {
+            &.reactions {
+                .reactions__block {
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+    footer {
+        .infos {
+            text-align: center;
+            flex-direction: column-reverse;
+            .infos__follow {
+                h3, span {
+                    display: none;
+                }
+                ul {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+        .company {
+            justify-content: center;
+            .newsletter {
+                order: 1;
+                text-align: center;
+            }
+            .logo {
+                order: 3;
+                margin-top: 3em;
+                padding-left: 1em;
+            }
+            p {
+                order: 2;
+                margin-top: 3em;
+            }
+        }
+        .copyright {
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .navbar {
+        li:last-child {
+            display: none;
+        }
+    }
+    .slogan {
+        font-size: $h2;
+        br {
+            display: none;
+        }
+    }
+    .searchbar {
+        background: rgba($color: #000000, $alpha: 0);
+        form {
+            .search {
+                background-color: $secondary;
+                padding: 0.5em;
+            }
+            margin: 0em 2em;
+            flex-direction: column;
+            background: rgba($color: #000000, $alpha: 0);
+            padding: 0.5em;
+            .button {
+                margin: 1em 25%;
+            }
+        }
+    }
+    .card .card__body {
+        .button {
+            margin: 0em 10%;
+        }
+    }
+    aside {
+        .sidebar.forums .sidebar__content .forums__block {
+            width: 100%;
+        }
+    }
+    footer {
+        .company {
+            p br {
+                display: none;
+            }
+            .newsletter {
+                div {
+                    flex-direction: column;
+                    background-color: $primary;
+                    width: 80vw;
+                    padding: 0.5em;
+                    #newsletter {
+                        text-align: center;
+                        padding: 1.2em 2em;
+                    }
+                    .button {
+                        margin: 0.2em 3em;
+                    }
+                }
+            }
+        }
+    }
+}

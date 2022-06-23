@@ -1,0 +1,30 @@
+/*Variables*/
+
+/*Fonts*/
+$h-font: "Domine";
+$p-font: "Montserrat";
+
+/*Colors*/
+$primary: #452b17;
+$secondary: #724b2f;
+$secondary-variant: #301b07;
+$secondary-variant-transparent: #301b0744;
+$button: #294673;
+$button-hover: #213e69;
+$background: #1E1E1E;
+$text: #ddd;
+$black: #000;
+$white: #fff;
+$gradient-black: linear-gradient($background, $black);
+$gradient-brown: linear-gradient(80deg, $secondary-variant-transparent, $secondary-variant);
+
+/*Fonts size*/
+$h1: 3em;
+$h2: 2.6em;
+$h3: 2.2em;
+$h4: 1.8em;
+$h5: 1.4em;
+$h6: 1.2em; 
+$p-large: 1.1em;
+$p-medium: 0.8em;
+$p-small: 0.72em;

@@ -1,5 +1,7 @@
 wp-config.php
 wp-content/themes/twentytwentyone/*
+wp-content/themes/twentytwentytwo/*
 wp-content/uploads/*
-wp-content/plugins/duplicate-post/*
+wp-content/plugins/*
 .vscode/
+/node_modules/
